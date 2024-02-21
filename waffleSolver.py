@@ -2,6 +2,7 @@ from words import words, weird
 from time import time
 import re
 import sys
+from waffleDailyScraping import getGridFromDaily
 
 words.extend(weird)
 
@@ -448,9 +449,6 @@ class Board():
 		print()
 
 if __name__ == "__main__":
-	sys.path.append('./Waffle Web Scraping')
-	from waffleDailyScraping import getGridFromDaily
-	
 	try:
 		todaysGrid = getGridFromDaily()
 
