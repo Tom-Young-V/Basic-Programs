@@ -461,10 +461,6 @@ if __name__ == "__main__":
 
 
 
-# for the future
-# maybe make the swaps a little more random, for fun
-# if the player makes an unexpected move: regenerate the swaps
-
 
 
 
